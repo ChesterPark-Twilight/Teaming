@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeJoinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btn_build_join_team_label"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/build_join_team_label"
+            android:background="@drawable/build_join_team_button_background"/>
+        <Button
+            android:id="@+id/btn_build_join_team_label_research"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/build_join_team_label_research"
+            android:background="@drawable/build_join_team_button_background"/>
+        <Button
+            android:id="@+id/btn_build_join_team_label_transportation"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/build_join_team_label_transportation"
+            android:background="@drawable/build_join_team_button_background"/>
+        <Button
+            android:id="@+id/btn_build_join_team_label_sport"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/build_join_team_label_sport"
+            android:background="@drawable/build_join_team_button_background"/>
+        <Button
+            android:id="@+id/btn_build_join_team_label_E_sport"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/build_join_team_label_E_sport"
+            android:background="@drawable/build_join_team_button_background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="40dp"
+            android:text="@string/build_join_team_time"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/btn_date_picker"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/date_picker"
+            android:background="@drawable/build_join_team_button_background"/>
+        <Button
+            android:id="@+id/btn_time_picker"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            style="?android:attr/buttonStyle"
+            android:text="@string/time_picker"
+            android:background="@drawable/build_join_team_button_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="40dp"
+            android:text="@string/build_join_team_number"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt_join_team_edit_text_number"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/build_join_team_edit_text_background"
+            android:hint="@string/one"
+            android:gravity="center"
+            android:autofillHints="1"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/edit_text_number"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <ListView
+        android:id="@+id/join_team_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/account_basic_information">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="@string/account_name_information"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="id"
+            app:title="@string/account_id_information"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:key="gender"
+            app:title="@string/account_gender_information"
+            app:entries="@array/gender_entries"
+            app:entryValues="@array/reply_values"
+            app:defaultValue="secret"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="birthday"
+            app:title="@string/account_birthday_information"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            app:key="credit"
+            app:title="@string/account_credit_information"
+            app:summary="@string/account_credit_score_information" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

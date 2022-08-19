@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Teaming</string>
+    <!--登录注册-->
+    <string name="account">请输入账号/邮箱</string>
+    <string name="password">请输入密码</string>
+    <string name="register_password">请再次输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="to_register">没有账号?点击注册</string>
+
+    <!--确认取消-->
+    <string name="confirm">确认</string>
+    <string name="confirm_build">确认创建</string>
+    <string name="confirm_join">确认加入</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_build">取消创建</string>
+    <string name="cancel_join">取消加入</string>
+
+    <!--后续可以删除的String-->
+    <string name="home_list_view_text">该条组队的详细信息</string>
+    <string name="test">测试</string>
+
+    <!--主活动的String-->
+    <string name="home_name">首页</string>
+    <string name="message_name">消息</string>
+    <string name="account_name">我</string>
+
+    <!--活动的顶部栏名称-->
+    <string name="title_build">创建队伍</string>
+    <string name="title_join">加入队伍</string>
+    <string name="title_account_information">账户信息</string>
+    <string name="title_account_build_team">我创建的队伍</string>
+    <string name="title_account_join_team">我加入的队伍</string>
+    <string name="title_account_preference">设置</string>
+
+    <!--首页的String-->
+    <string name="build_team">创建队伍</string>
+    <string name="join_team">加入队伍</string>
+
+    <!--我的String-->
+    <string name="account_image_text">头像</string>
+    <string name="account_important_information">部分重要信息</string>
+    <string name="account_build_team">我创建的队伍</string>
+    <string name="account_join_team">我加入的队伍</string>
+    <string name="account_setting">设置</string>
+
+    <!--账户信息的String-->
+    <string name="account_basic_information">基本信息</string>
+    <string name="account_name_information">姓名</string>
+    <string name="account_id_information">昵称</string>
+    <string name="account_gender_information">性别</string>
+    <string name="account_birthday_information">生日</string>
+    <string name="account_credit_information">信誉积分</string>
+    <string name="account_credit_score_information">100</string>
+    <string name="account_log_out">退出登录</string>
+
+    <!--设置的String-->
+    <string name="account_basic_preference">基础设置</string>
+    <string name="account_message_preference">消息推送</string>
+    <string name="account_theme_preference">深色主题</string>
+    <string name="account_font_size_preference">字体大小</string>
+
+    <!--首页滚动界面的String-->
+    <string name="home_research_label">科研组队</string>
+    <string name="home_transportation_label">出行组队</string>
+    <string name="home_sport_label">运动组队</string>
+    <string name="home_E_sport_label">游戏组队</string>
+
+    <!--筛选栏标签的String-->
+    <string name="build_join_team_label_research">科研</string>
+    <string name="build_join_team_label_transportation">出行</string>
+    <string name="build_join_team_label_sport">运动</string>
+    <string name="build_join_team_label_E_sport">游戏</string>
+
+    <!--    创建和加入队伍的选项String-->
+    <string name="build_join_team_label">类别</string>
+    <string name="build_join_team_date">日期</string>
+    <string name="build_join_team_time">时间</string>
+    <string name="build_join_team_number">人数</string>
+
+    <!--    筛选栏人数的String-->
+    <string name="number_1">1人</string>
+    <string name="number_2">2人</string>
+    <string name="number_3">3人</string>
+    <string name="number_4">4人</string>
+    <string name="number_5">5人</string>
+    <string name="number_6">6人</string>
+
+    <!--    筛选栏时间选择-->
+    <string name="force_date_picker">请选择日期</string>
+    <string name="force_time_picker">请选择时间</string>
+    <string name="date_picker">选择日期</string>
+    <string name="time_picker">选择时间</string>
+
+    <!--    填写详细信息文本框提示-->
+    <string name="edit_text_hint">请填写具体要求</string>
+    <string name="edit_text_auto_hint">无具体需求</string>
+    <string name="edit_text_number">人</string>
+    <string name="one">1</string>
+
+    <!--    聊天界面-->
+    <string name="send">发送</string>
+
+    <!--    消息界面-->
+    <string name="detail">详细信息</string>
+    <string name="message">收到一条消息</string>
+</resources>

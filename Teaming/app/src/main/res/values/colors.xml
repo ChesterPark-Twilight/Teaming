@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="lake_blue">#66CCFF</color>
+    <color name="light_lake_blue">#99DDFF</color>
+    <color name="ultra_light_blue">#c7ecff</color>
+    <color name="red">#FF2D2D</color>
+    <color name="orange">#FFEA80</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#525252</color>
+    <color name="gray">#ededed</color>
+    <color name="white">#FFFFFF</color>
+</resources>
